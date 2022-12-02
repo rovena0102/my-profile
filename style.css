@@ -1,0 +1,73 @@
+/* Colors and fonts */
+body {
+    background-color: rgb(200,200,200);
+    color: rebeccapurple; 
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+}
+
+h1{
+color: darkblue;
+font-family: 'El Messiri', sans-serif;
+font-weight: 500;
+letter-spacing: 4px; 
+font-size: 50px;
+text-align: center;
+}
+
+h2{
+    color: darkred;
+    font-weight: 600;
+}
+a {
+    text-decoration: none; 
+    color: darkblue;
+}
+a:hover {
+    color: darkred;
+}
+
+
+/* Custom design with class */
+
+.container{
+    width: 1000px; 
+    margin: 30px auto;
+}
+.card-white {
+    background-color: white;
+    padding: 15px;
+    box-shadow: 30px 30px rgba(50, 50, 50, 0.1);
+    border-radius: 5px;
+    margin: 10px; 
+    text-align: center;
+}
+.img-circle {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.btn-blue {
+    background-color: darkblue;
+    color: white; 
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.btn-blue:hover{
+	background-color: darkred; 
+    color: white;
+}
+.list-inline { 
+    list-style: none;
+    padding-left: 0px;
+}
+.list-inline li {
+    display: inline; 
+    padding: 10px;
+}
+
+/* Design ajustments using ID */
+#introduction p { 
+    margin-bottom: 40pxw
+
+}
